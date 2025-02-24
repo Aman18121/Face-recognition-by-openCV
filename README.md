@@ -1,3 +1,12 @@
 # Face-recognition-by-openCV
 
-This project utilizes OpenCV and deep learning techniques for real-time face recognition. It involves face detection, feature extraction, and classification using models like Eigenfaces, Fisherfaces, or deep learning-based approaches (e.g., DNN, FaceNet). The system captures face data, processes it using OpenCV’s built-in libraries, and identifies individuals by comparing features against a trained dataset. Applications include security systems, attendance tracking, and identity verification. The project can be enhanced with Haar cascades, Dlib, or CNNs for improved accuracy.
+This project implements a real-time face verification system using OpenCV and DeepFace. It captures live video from a webcam and compares each frame to a reference image for identity verification.
+
+🔹 Key Features:
+✔️ Real-time face detection and verification
+✔️ Uses DeepFace for facial recognition
+✔️ Multi-threading for efficient processing
+✔️ Displays match results dynamically on the screen
+✔️ Simple and interactive interface
+
+📌 Tech Stack: Python, OpenCV, DeepFace, Threading
